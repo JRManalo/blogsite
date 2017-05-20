@@ -5,21 +5,32 @@
  * Description: Style page used to customize blog website
 */
 
-img {
-    vertical-align: middle;
-    width: 206px;
+body {
+    margin: 0;
 }
 
 ul {
     list-style-type: none;
-    margin: -10px 1px;
+    margin: 0;
+    left: 0;
     padding: 0;
     width: 15%;
-    background-color: #e6e6e6;
+    background-color: #f1f1f1;
     position: fixed;
     height: 100%;
-    font-size: 50px;
-    text-align: center;
+}
+
+h2 {
+   margin-bottom: -33px;
+   text-align: center;
+}
+
+#trumpet {
+    width: 164px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 li a {
@@ -27,15 +38,10 @@ li a {
     color: blue;
     padding: 8px 16px;
     text-decoration: none;
-    font-size: 19px;
+    font-size: 18px;
 }
 
-a:hover {
-    color: #2d6a9f;
+li a:hover {
+    color: grey;
     text-decoration: none;
 }
-
-
-
-
-
