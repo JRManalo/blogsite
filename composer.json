@@ -1,0 +1,12 @@
+{
+    "name": "jeremy/blogs",
+    "authors":[
+        {
+            "name": "Jeremy Manalo",
+            "email": "jmanalo@greenriver.edu"
+        }
+    ],
+    "require":{
+        "bcosca/fatfree-core":"dev-master"
+    }
+}

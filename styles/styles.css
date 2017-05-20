@@ -1,0 +1,41 @@
+/*
+ * Name: Jeremy Manalo
+ * Date: 5-16-17
+ * Filename: styles.css
+ * Description: Style page used to customize blog website
+*/
+
+img {
+    vertical-align: middle;
+    width: 206px;
+}
+
+ul {
+    list-style-type: none;
+    margin: -10px 1px;
+    padding: 0;
+    width: 15%;
+    background-color: #e6e6e6;
+    position: fixed;
+    height: 100%;
+    font-size: 50px;
+    text-align: center;
+}
+
+li a {
+    display: block;
+    color: blue;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+a:hover {
+    color: #2d6a9f;
+    text-decoration: none;
+}
+
+
+
+
+
