@@ -16,5 +16,33 @@ session_start();
         ('pages/home.html');        
     });
     
+    $f3->route('GET /home', function()
+    {
+        $view = new view;
+        echo $view->render
+        ('pages/home.html');        
+    });
+    
+    $f3->route('GET /about', function()
+    {
+        $view = new view;
+        echo $view->render
+        ('pages/about.html');        
+    });
+    
+    $f3->route('GET /blogger', function()
+    {
+        $view = new view;
+        echo $view->render
+        ('pages/blogger.html');        
+    });
+    
+    $f3->route('GET /login', function()
+    {
+        $view = new view;
+        echo $view->render
+        ('pages/login.html');        
+    });
+    
     //Run fat free
     $f3->run();
