@@ -17,6 +17,7 @@ img {
     height: 180px;
     width: 180px;
 }
+
 .panel-body {
     min-height: 20px;
     padding: 19px;
@@ -26,8 +27,19 @@ img {
     border-radius: 4px;
 }
 
+div.box {
+    background-color: #D5D8DC;
+    padding: 8px;
+}
+
 .profile-left {
     border-right: 1px solid black;
+}
+
+#bio {
+    border: 1px solid #ABB2B9;
+    padding: 5px;
+    margin-top: 4%;
 }
 
 .btn-primary {
