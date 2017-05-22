@@ -1,0 +1,41 @@
+/*
+ * Name: Jeremy Manalo
+ * Date: 5-16-17
+ * Filename: blogger.css
+ * Description: Style page used to customize blogger page
+*/
+
+.jumbotron {
+    padding: 10px 8px 10px 17px;
+}
+
+.jumbotron p {
+    margin: -15px 3px;
+}
+
+img {
+    height: 180px;
+    width: 180px;
+}
+.panel-body {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+}
+
+.profile-left {
+    border-right: 1px solid black;
+}
+
+.btn-primary {
+    color: black;
+    background-color: #82D47E;
+    border-color: black;
+    margin: 5px 16px;
+    height: 45px;
+    width: 147px;
+    font-size: 19px;
+}
