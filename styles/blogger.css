@@ -51,3 +51,9 @@ div.box {
     width: 147px;
     font-size: 19px;
 }
+
+button.btn.btn-primary:hover {
+    color: black;
+    background-color: yellow;
+    border-color: black;
+}

@@ -1,0 +1,46 @@
+/*
+ * Name: Jeremy Manalo
+ * Date: 5-16-17
+ * Filename: login.css
+ * Description: Style page used to customize login page
+*/
+
+
+.jumbotron {
+    padding: 10px 8px 10px 17px;
+}
+
+.jumbotron p {
+    margin: -15px 3px;
+}
+
+img {
+    height: 180px;
+    width: 180px;
+}
+
+.well form {
+    width: 55%;
+    display: block;
+    margin-top: 0.5%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #D5D8DC;
+    padding: 10px;
+}
+
+.btn-primary {
+    color: black;
+    background-color: #82D47E;
+    border-color: black;
+    margin: 5px 16px;
+    height: 45px;
+    width: 147px;
+    font-size: 19px;
+}
+
+button.btn.btn-primary:hover {
+    color: black;
+    background-color: yellow;
+    border-color: black;
+}
