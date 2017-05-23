@@ -1,0 +1,22 @@
+/*
+ * Name: Jeremy Manalo
+ * Date: 5-16-17
+ * Filename: fullviewblog.css
+ * Description: Style page used to customize the full view of a users blog
+*/
+
+#entry {
+    background-color: #f1f1f1;
+    margin: 13px 15px 15px 15px;;
+    padding: 3em;
+    min-height: 400px;
+}
+  
+#entry img {
+    float: right;
+    width: 40%;
+    min-width: 200px;
+    max-width: 400px;
+    max-height: 300px;
+    padding-left: 10px;
+}
