@@ -24,11 +24,6 @@ session_start();
         echo Template::instance()->render('pages/home.html'); 
     });
     
-    $f3->route('GET /home', function($f3)
-    {
-        echo Template::instance()->render('pages/home.html');      
-    });
-    
     $f3->route('GET /about', function($f3)
     {
         echo Template::instance()->render('pages/about.html');       

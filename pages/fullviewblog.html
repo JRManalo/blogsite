@@ -29,7 +29,7 @@
 			<ul>
 				<h2>Blog Site</h2>
 				<img id="trumpet" src="images/trumpet.png" alt="trumpet">
-				<li><a href="./home">Home ></a></li>
+				<li><a href="./">Home ></a></li>
 				<li><a href="./blogger">Become a Blogger ></a></li>
 				<li><a href="./about">About Us ></a></li>
 				<li><a href="./login">Login ></a></li>

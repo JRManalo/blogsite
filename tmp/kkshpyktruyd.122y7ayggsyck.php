@@ -29,7 +29,7 @@
 			<ul>
 				<h2>Blog Site</h2>
 				<img id="trumpet" src="images/trumpet.png" alt="trumpet">
-				<li><a href="./home">Home ></a></li>
+				<li><a href="./">Home ></a></li>
 				<li><a href="./blogger">Become a Blogger ></a></li>
 				<li><a href="./about">About Us ></a></li>
 				<li><a href="./login">Login ></a></li>
@@ -39,8 +39,7 @@
 		<div class="row col-md-9 col-xs-12 page-container">
 			<div class="row">
 				<?php foreach (($squad?:[]) as $key=>$value): ?>
-				<div class="post-box col-md-4 col-sm-6">					
-					
+					<div class="post-box col-md-4 col-sm-6">						
 						<div class="post">
 							<img src="userimage/<?= $value[profile_pic] ?>"  alt="<?= $value[profile_pic] ?>" >
 							<p class="center"><?= $value[name] ?></p>
@@ -51,8 +50,7 @@
 								<?= $value[bio] ?></p>
 							</div>
 						</div>
-								
-				</div>
+					</div>
 				<?php endforeach; ?>	
 			</div>
 		</div>

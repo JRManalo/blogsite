@@ -383,3 +383,6 @@
 [23-May-2017 05:07:39 America/Chicago] HTTP 404 (GET /userimage/food.jpg)
 [23-May-2017 05:07:39 America/Chicago] [328/blogsite/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
 [23-May-2017 05:07:39 America/Chicago] [328/blogsite/index.php:77] Base->run()
+[23-May-2017 05:20:45 America/Chicago] HTTP 404 (GET /home)
+[23-May-2017 05:20:45 America/Chicago] [328/blogsite/vendor/bcosca/fatfree-core/base.php:1645] Base->error()
+[23-May-2017 05:20:45 America/Chicago] [328/blogsite/index.php:72] Base->run()
