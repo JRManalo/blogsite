@@ -1,0 +1,46 @@
+/*
+ * Name: Jeremy Manalo
+ * Date: 5-16-17
+ * Filename: home.css
+ * Description: Style page used to customize login home page
+*/
+
+.page-container {
+	margin: 4px 0 1em 0;
+	padding: 0 1px 1px 1px;
+}
+
+.post-box {
+	margin: 10px 0 10px 0;
+	padding: 0 1px 0 1px 0;
+}
+
+.post {
+	padding: 14px;
+	background-color: #f1f1f1;
+	text-align: center;
+}
+
+.blog-text {
+	text-align: left;
+}
+
+/* Borders */
+.top-bottom-border {
+	border-top: solid 1px black;
+	border-bottom: solid 1px black;
+	text-align: left;
+}
+
+.bottom-border {
+	border-bottom: solid 1px black;
+}
+
+.extend {
+	margin: 0 -1em 5px -1em;
+	padding: 5px 1em 5px 1em;
+}
+
+.center {
+	text-align: center;
+}

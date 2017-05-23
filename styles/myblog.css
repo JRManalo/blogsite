@@ -1,0 +1,46 @@
+/*
+ * Name: Jeremy Manalo
+ * Date: 5-16-17
+ * Filename: myblog.css
+ * Description: Style page used to customize my blogs page
+*/
+
+.jumbotron {
+    padding: 10px 8px 10px 17px;
+}
+
+.jumbotron img {
+    height: 181px;
+    width: 219px;
+    margin: 4px 15px;
+}
+
+.wrapper {
+	background-color:#D5D8DC;
+	padding-bottom:2em;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0 1em;
+	padding-left:1em;
+	padding-right:1em;
+}
+
+.table .table-responsive{
+	color:black;
+}
+
+th{
+	font-size:20px;
+}
+.customize-tr{
+	font-size:17px;
+	background-color:white;
+}
+.fa{
+	font-size:20px;
+}
+.bio{
+	border-top:1px solid #ABB2B9;
+}

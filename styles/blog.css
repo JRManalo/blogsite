@@ -50,8 +50,10 @@
 }
   
 #profilePic img {
-    float: none;
-    width: 100%;
-    max-height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 230px;
+    height: 180px;
 }
   
