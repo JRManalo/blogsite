@@ -3,16 +3,16 @@
 	<!--
 		Author: Jeremy Manalo
 		Date: 5/16/17
-		Filename: home.html
-		Description: Home page for blogging site
+		Filename: login.html
+		Description: Login page for blogging site
 	-->
 	
-	<head> 
+	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		
-		<title>Home</title>
+		<title>Login</title>
 		
 		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 		<!-- BootStrap -->
@@ -21,7 +21,7 @@
 		
 		<!-- Customized Stylesheets -->
 		<link href="./styles/styles.css" rel="stylesheet" type="text/css">
-		<link href="./styles/home.css" rel="stylesheet" type="text/css">
+		<link href="./styles/login.css" rel="stylesheet" type="text/css">
 	</head>
 	
 	<body>
@@ -36,24 +36,37 @@
 			</ul>
 		</div>
 		
-		<div class="row col-md-9 col-xs-12 page-container">
-			<div class="row">
-				<repeat group="{{ @squad }}" key="{{ @key}}" value="{{ @value }}">
-				<div class="post-box col-md-4 col-sm-6">					
-					
-						<div class="post">
-							<img src="userimage/{{ @value[profile_pic] }}"  alt="{{ @value[profile_pic] }}" >
-							<p class="center">{{ @value[name] }}</p>
-							<p class="top-bottom-border extend pull"><a href="./blog">view blogs</a>
-							<span class="pull-right">Total: 10</span></p>
-							<div class="blog-text">
-								<p>Something from my latest blog:<br>
-								{{ @value[bio] }}</p>
-							</div>
+		<div class="col-sm-10">
+			<div class="jumbotron">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-9">
+							<h1 class="display-4">Welcome back!</h1>
+							<br>
+							<p class="lead">Please log in below</p>
 						</div>
-								
+						<div class="col-sm-3">
+							<img src="images/lock.png">
+						</div>
+					</div>
 				</div>
-				</repeat>	
+			</div>
+			
+			<div class="well well-lg">
+				<form>
+					<div class="input-group">
+						<input type="text" class="form-control" aria-describedby="username">
+						<span class="input-group-addon" id="username">Username</span>
+					</div>
+					<div class="input-group">
+						<input type="text" class="form-control" aria-describedby="password">
+						<span class="input-group-addon" id="password">Password</span>
+					</div>
+				</form>				
+				<br>
+				<div class="text-center">
+					<button class="btn btn-primary">Log In</button>
+				</div>
 			</div>
 		</div>
 		

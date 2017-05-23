@@ -5,6 +5,10 @@
  * Description: Style page used to customize home page
 */
 
+.post img {
+	height: 190px;
+	width: 167px;
+}
 .page-container {
 	margin: 4px 0 1em 0;
 	padding: 0 1px 1px 1px;

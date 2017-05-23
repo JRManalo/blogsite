@@ -38,22 +38,22 @@
 		
 		<div class="row col-md-9 col-xs-12 page-container">
 			<div class="row">
-				<repeat group="{{ @squad }}" key="{{ @key}}" value="{{ @value }}">
+				<?php foreach (($squad?:[]) as $key=>$value): ?>
 				<div class="post-box col-md-4 col-sm-6">					
 					
 						<div class="post">
-							<img src="userimage/{{ @value[profile_pic] }}"  alt="{{ @value[profile_pic] }}" >
-							<p class="center">{{ @value[name] }}</p>
+							<img src="userimage/<?= $value[profile_pic] ?>"  alt="<?= $value[profile_pic] ?>" >
+							<p class="center"><?= $value[name] ?></p>
 							<p class="top-bottom-border extend pull"><a href="./blog">view blogs</a>
 							<span class="pull-right">Total: 10</span></p>
 							<div class="blog-text">
 								<p>Something from my latest blog:<br>
-								{{ @value[bio] }}</p>
+								<?= $value[bio] ?></p>
 							</div>
 						</div>
 								
 				</div>
-				</repeat>	
+				<?php endforeach; ?>	
 			</div>
 		</div>
 		
