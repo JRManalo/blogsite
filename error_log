@@ -126,3 +126,5 @@
 [22-May-2017 19:11:26 America/Chicago] [328/blogsite/index.php:48] Base->run()
 [22-May-2017 19:18:16 America/Chicago] HTTP 404 (GET /loginhome)
 [22-May-2017 19:18:16 America/Chicago] [328/blogsite/index.php:55] Base->run()
+[22-May-2017 20:57:03 America/Chicago] HTTP 404 (GET /user-images/jmccoy/dragon.jpg)
+[22-May-2017 20:57:03 America/Chicago] [328/blogsite/index.php:89] Base->run()
