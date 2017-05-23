@@ -1,0 +1,31 @@
+/*
+ * Name: Jeremy Manalo
+ * Date: 5-16-17
+ * Filename: about.css
+ * Description: Style page used to customize login about page
+*/
+
+.jumbotron {
+    padding: 10px 8px 10px 17px;
+}
+
+.jumbotron img {
+    width: 160px;
+    height: 160px;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+hr {
+  -moz-border-bottom-colors: none;
+  -moz-border-image: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+  border-style: solid none;
+  border-width: 1px 0;
+  margin: 18px 0;
+}

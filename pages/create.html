@@ -51,32 +51,30 @@
 					</div>
 				</div>
 			</div>
-			
-			<div class="well well-lg">
-				
-          <div class="block">
-            <form class="form-horizontal" action="/328/blogs/insert" method="POST">
-              <div class="form-group">
-                <div class="col-sm-10">
-                  <input type="text" class="form-control" id="title" name="title">
+            
+            <div class="well well-lg">
+                <div class="block">
+                    <form class="form-horizontal" action="/328/blogs/insert" method="POST">
+                        <div class="form-group">
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="title" name="title">
+                            </div>
+                            <label for="title">Title</label>
+                        </div>
+                        
+                        <div class="box title-box center">
+                            <p>Blog Entry</p>
+                        </div>
+                        <div>
+                            <textarea id="blogEntry" name="blogEntry"></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button class="btn btn-primary" id="save">Save</button>
+                        </div>
+                    </form>
                 </div>
-                <label for="title">Title</label>
-              </div>
-              
-              <div class="box title-box center">
-                <p>Blog Entry</p>
-              </div>
-              
-              <div>
-                <textarea id="blogEntry" name="blogEntry"></textarea>
-              </div>
-				<div class="text-center">
-					<button class="btn btn-primary" id="save">Save</button>
-				</div>
-            </form>
-			</div>
-		</div>
-       
+            </div>
+        </div>       
         
 		<!-- jQuery library -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>

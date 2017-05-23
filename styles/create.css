@@ -23,6 +23,10 @@ img {
     height: 300px;
 }
 
+.row {
+    margin: -13px -25px;
+}
+
 label {
     min-width: 110px;
     width: 1vw;
