@@ -120,3 +120,7 @@
 [19-May-2017 22:55:51 America/Chicago] [328/blogsite/index.php:48] Base->run()
 [19-May-2017 23:01:10 America/Chicago] HTTP 404 (GET /modernizr-1.5.js)
 [19-May-2017 23:01:10 America/Chicago] [328/blogsite/index.php:48] Base->run()
+[22-May-2017 19:10:58 America/Chicago] HTTP 404 (GET /create)
+[22-May-2017 19:10:58 America/Chicago] [328/blogsite/index.php:48] Base->run()
+[22-May-2017 19:11:26 America/Chicago] HTTP 404 (GET /create)
+[22-May-2017 19:11:26 America/Chicago] [328/blogsite/index.php:48] Base->run()

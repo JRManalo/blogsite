@@ -44,5 +44,12 @@ session_start();
         ('pages/login.html');        
     });
     
+    $f3->route('GET /create', function()
+    {
+        $view = new view;
+        echo $view->render
+        ('pages/create.html');        
+    });
+    
     //Run fat free
     $f3->run();
