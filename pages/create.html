@@ -21,6 +21,7 @@
 		
 		<!-- Customized Stylesheets -->
 		<link href="./styles/styles.css" rel="stylesheet" type="text/css">
+        <link href="./styles/create.css" rel="stylesheet" type="text/css">
 	</head>
 	
 	<body>
@@ -31,11 +32,52 @@
 				<li><a href="./loginhome">Home ></a></li>
 				<li><a href="./myblog">My Blogs ></a></li>
                 <li><a href="./create">Create Blog</a></li>
-				<li><a href="./about">About Us ></a></li>
+				<li><a href="./loginabout">About Us ></a></li>
 				<li><a href="./home">Logout ></a></li>
 			</ul>
 		</div>
 		
+        
+        <div class="col-sm-10">
+			<div class="jumbotron">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-9">
+							<h1 class="display-4">What's on your mind?</h1>
+						</div>
+						<div class="col-sm-3">
+							<img src="images/writing.png" id="notepad">
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="well well-lg">
+				
+          <div class="block">
+            <form class="form-horizontal" action="/328/blogs/insert" method="POST">
+              <div class="form-group">
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="title" name="title">
+                </div>
+                <label for="title">Title</label>
+              </div>
+              
+              <div class="box title-box center">
+                <p>Blog Entry</p>
+              </div>
+              
+              <div>
+                <textarea id="blogEntry" name="blogEntry"></textarea>
+              </div>
+				<div class="text-center">
+					<button class="btn btn-primary" id="save">Save</button>
+				</div>
+            </form>
+			</div>
+		</div>
+       
+        
 		<!-- jQuery library -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		
